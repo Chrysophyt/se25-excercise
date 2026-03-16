@@ -13,7 +13,7 @@ out/
 *.out
 
 # Rust
-/target/
+**/target/
 Cargo.lock
 
 # Operating System Files
