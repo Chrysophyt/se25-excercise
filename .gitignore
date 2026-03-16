@@ -1,0 +1,25 @@
+# IntelliJ IDEA
+.idea/
+out/
+*.iml
+
+# Kotlin
+.kotlin
+/build/
+
+# C & C++
+/build/
+*.o
+*.out
+
+# Rust
+/target/
+Cargo.lock
+
+# Operating System Files
+.DS_Store
+._*
+Thumbs.db
+
+# VSCode
+.vscode/

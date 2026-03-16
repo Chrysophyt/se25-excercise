@@ -1,0 +1,8 @@
+package de.uni_saarland.cs.se.simpledb
+
+class Database {
+    fun write(key: String, value: String) {
+        storage[key] = value
+    }
+    private val storage = Storage()
+}

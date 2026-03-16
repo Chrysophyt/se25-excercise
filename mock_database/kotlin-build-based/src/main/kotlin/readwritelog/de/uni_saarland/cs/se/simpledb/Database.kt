@@ -1,0 +1,13 @@
+package de.uni_saarland.cs.se.simpledb
+
+class Database {
+    fun read(key: String): String? {
+        println("Reading value for key '$key'.")
+        return storage[key]
+    }
+    fun write(key: String, value: String) {
+        println("Writing value '$value' at key '$key'.")
+        storage[key] = value
+    }
+    private val storage = Storage()
+}
