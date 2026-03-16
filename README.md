@@ -9,7 +9,7 @@ This repository is a collection of small projects and code examples created to e
 The repository is structured into three main thematic areas:
 
 -   `design_patterns/`: Implementations of classic design patterns in Kotlin.
--   `mock_database/`: A simple key-value store implemented in C++.
+-   `mock_database/`: A simple key-value store where variability is implemented by runtime args or build scripts.
 -   `trait_mixin/`: Examples of using traits and typeclasses in Rust and Haskell.
 
 ---
